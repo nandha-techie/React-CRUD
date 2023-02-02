@@ -47,7 +47,7 @@ const Add = ({ employees, setEmployees, setIsAdd }) => {
         <>
             <h2 className="text-center">Add Employee</h2>
             <form onSubmit={ handleAdd }>
-                <div className="mb-3 col-5">
+                <div className="mb-3">
                     <label htmlFor="firstName" className="form-label">First Name</label>
                     <input type="text" name="firstName" value={firstName} className="form-control" onChange={e => setFirstName(e.target.value)}  id="firstName" />
                 </div>
